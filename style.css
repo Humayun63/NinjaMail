@@ -1,0 +1,313 @@
+/*  BASIC SETUP */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+}
+a{
+    color: #000;
+}
+img{
+    width: 30rem;
+}
+/*  MOST USING CLASSES  */
+.container{
+    width: 96rem;
+    margin: 2rem auto;
+}
+.custom-btn{
+    background-color:#4BA87D;
+    color:#fff;
+    font-size: 1.8rem;
+    border:none;
+    padding:10px 20px;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+.custom-btn:hover{
+    background-color: #fff;
+    color: #4BA87D;
+    outline: 0.3rem solid #4BA87D;
+    border-radius: 0.3rem;
+}
+.demo-btn{
+    background-color: #fff;
+    color: #4BA87D;
+    border: 0.3rem solid #4BA87D;
+    padding: 0.8rem 1.8rem;
+    margin-left: 2rem;
+    cursor: pointer;
+    font-size: 1.8rem;
+}
+.demo-btn:hover{
+    background-color:#4BA87D;
+    color:#fff;
+    border-radius: 0.5rem;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.single-card{
+    width: 30%;
+    height: 50rem;
+    background-color: #FFFFFF;
+}
+/*      START NAV SECTION     */
+nav{
+    display: flex;
+    justify-content: space-between;}
+.logo img{
+    width: 20rem;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60rem;
+}
+.menu ul li{
+    border-bottom: 0.3rem solid #4BA87D; 
+    padding: 1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.menu ul li:last-child{
+    border-bottom: none;
+    padding: 0;
+}
+.menu ul li:hover{
+    background-color: #4BA87D;
+    border-radius: 0.5rem;
+}
+.menu ul li a{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+/*      END NAV SECTION     */
+
+/*      START BANNER SECTION     */
+.banner-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem;
+    margin-top: 6rem;
+}
+.banner-text{
+    
+}
+.banner-text h2{
+    font-size: 4rem;
+    line-height: 5rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+.banner-text p{
+    margin: 1.5rem 0;
+    font-size: 1.8rem;
+}
+.banner-img img{
+    width: 50rem;
+    height: 25rem;
+    margin-left: 1rem;
+    object-fit: cover;
+}
+/*      END BANNER SECTION     */
+
+/*      START CUSTOMER SECTION     */
+.customer-container{
+    background-color: #F7F7F7;
+    padding:5rem 0;
+}
+.customer-section{
+    background: url(images/recharge.jpg) no-repeat;
+    background-size: cover;
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.customer-section h2{
+    color: #4ba836;
+    font-size: 5rem;
+    margin-bottom: 3rem;
+}
+/*      END CUSTOMER SECTION     */
+
+/*      START SERVICES SECTION     */
+.services-container{
+    background-color: #CAEAC7;
+    padding: 6rem 0;
+}
+.services-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.services-section h2{
+    font-size: 5rem;
+    margin-bottom: 3rem;
+}
+.single-card img{
+    width: 100%;
+    height: 35rem;
+    object-fit: cover;
+}
+.single-card p{
+    margin: 1rem;
+    text-align: justify;
+}
+.single-card a{
+    color: #4ba836;
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin: 1rem;
+}
+/*      END SERVICES SECTION     */
+/*      START OUR CUSTOMER SECTION     */
+.our-customer-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+
+}
+/*.our-customer-section .cards{
+    width: 100%;
+}*/
+.our-customer-section h2{
+    font-size: 5rem;
+    margin: 3rem;
+}
+.our-customer-section .single-card{
+    width: 25rem;
+    height: 25rem;
+}
+.customer-1{
+    background: url('images/customers/customer1.jpg') no-repeat;
+    background-size:cover;
+}
+.customer-2{
+    background: url('images/customers/customer2.jpg') no-repeat;
+    background-size:cover;
+}
+.customer-3{
+    background: url('images/customers/customer3.jpg') no-repeat;
+    background-size:cover;
+    background-position: 0px -39px;
+}
+.flex-custom{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.our-customer-section h3{
+    font-size: 3rem;
+    margin-left: 1rem;
+    color: #4ba836;
+}
+.our-customer-section p{
+    color: lightseagreen;
+    font-weight: bold;
+}
+
+/*      END OUR CUSTOMER SECTION     */
+/*      START Email SECTION     */
+.email-section{
+    margin-top: 5rem;
+    text-align: center;
+}
+.email-section h2{
+    font-size: 5rem;
+}
+.mail-box{
+    margin: 2rem;
+}
+.mail-box input{
+    border: 0.2rem solid #ddd;
+    outline: none;
+    width: 35rem;
+    height: 4.5rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    font-size: 1.6rem;
+    margin-right: 2rem;
+}
+.mail-box p{
+    margin: 1.6rem;
+    color: #4BA87D;
+    font-weight: 600;
+}
+/*      END Email SECTION     */
+/*      START PARTNER SECTION     */
+.partner-section{
+    text-align: center;
+    margin-top: 10rem;
+}
+.partner-section h2{
+    font-size: 5rem;
+    padding: 0 18rem;
+    margin-bottom: 5rem;
+}
+.images ul li{
+    display: inline-block;
+    margin-bottom: 5rem;
+}
+.images ul li img{
+    width: 15rem;
+    height: 5rem;
+    object-fit: contain;
+}
+/*      END PARTNER SECTION     */
+/*      START SUBSCRIPTION SECTION     */
+.subscription-container{
+    background-color: #4BA87D;
+}
+.subscription-section{
+    height: 30rem;
+    text-align: center;
+}
+.subscription-section h2{
+    font-size: 5rem;
+    color: #fff;
+    padding: 10rem 0rem 3rem 0rem;
+}
+.subscription-section .demo-btn:hover{
+    border: 0.3rem solid #fff;
+}
+/*      END SUBSCRIPTION SECTION     */
+/*      START FOOTER SECTION     */
+.footer-section{
+
+}
+.sub-footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 6rem 0rem;
+    font-size: 1.8rem;
+    line-height: 3rem;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    border-top: 0.3rem solid #ddd;
+    padding: 4rem 0rem;
+}
+/*      END FOOTER SECTION     */
+
+
